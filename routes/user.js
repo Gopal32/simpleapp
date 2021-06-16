@@ -76,7 +76,7 @@ router.post('/login', async (req,res) =>{
     }
 });
 
-router.get('/', auth, (req,res) => {
+router.get('/', (req,res) => {
     console.log('welcome');
     res.send('Welcome')
 })
